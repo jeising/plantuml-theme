@@ -1,0 +1,29 @@
+' FILE:            plantuml-theme.puml
+' SW-COMPONENT:    theme
+' DESCRIPTION:     Serves as a theme
+' COPYRIGHT:       © 2021 Robert Bosch GmbH
+' The reproduction, distribution and utilization of this file as
+' well as the communication of its contents to others without express 
+' authorization is prohibited. Offenders will be held liable for the 
+' payment of damages. All rights reserved in the event of the grant 
+' of a patent, utility model or design.
+
+!include https://raw.githubusercontent.com/bschwarz/puml-themes/master/themes/sketchy-outline/puml-theme-sketchy-outline.puml
+
+skinparam defaultFontName Arial
+skinparam hyperlinkcolor #20214f
+
+<style>
+mindmapDiagram {
+    node {
+        BackGroundColor transparent
+        LineColor DarkSlateGrey
+        LineThickness 1.7
+        RoundCorner 20
+    }
+    arrow {
+        LineColor DarkSlateGrey
+        LineThickness 1.2
+    }
+}
+</style>
