@@ -10,9 +10,6 @@
 
 !include https://raw.githubusercontent.com/bschwarz/puml-themes/master/themes/sketchy-outline/puml-theme-sketchy-outline.puml
 
-skinparam defaultFontName Arial
-skinparam hyperlinkcolor #20214f
-
 <style>
 mindmapDiagram {
     node {
